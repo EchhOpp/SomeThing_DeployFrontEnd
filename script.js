@@ -4,7 +4,7 @@ const message = document.getElementById('message');
 // Thay YOUR_BACKEND_URL bằng URL backend deploy trên Render
 // chạ localhost hoặc URL của backend đã deploy
 // const API_URL = 'https://YOUR_BACKEND.onrender.com/api/users';
-const API_URL = 'http://localhost:3000/api/users';
+const API_URL = 'https://something-testdeploy.onrender.com/api/users';
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
